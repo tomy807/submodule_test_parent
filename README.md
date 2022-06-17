@@ -22,3 +22,10 @@ submodule을 포함하는 git을 클론 할시 submodule은 함께 클론 되지
 git submodule update --init
 ```
 하면 submodule도 불러올수 있다.
+
+## 3 update submodules at once
+한번에 모든 서브모듈을 update함.
+
+```
+git submodule update --remote
+```
