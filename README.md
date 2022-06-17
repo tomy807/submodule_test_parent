@@ -15,11 +15,11 @@ $git submodule add https://github.com/tomy807/submodule_test_child.git
 ```
 ## 2 clone git with submodule
 ```
-if git clone https://github.com/tomy807/submodule_test_parent.git
+$git clone https://github.com/tomy807/submodule_test_parent.git
 ```
 submodule을 포함하는 git을 클론 할시 submodule은 함께 클론 되지 않고 빈 폴더만 클론 된다.
 ```
-git submodule update --init
+$git submodule update --init
 ```
 하면 submodule도 불러올수 있다.
 
@@ -27,10 +27,10 @@ git submodule update --init
 한번에 모든 서브모듈을 update함.
 
 ```
-git submodule update --remote
+$git submodule update --remote
 ```
 ## 4 rollback submodules 
 ```
-git submodule update
+$git submodule update
 ```
 서브 모듈의 상태를 마지막으로 commit한 지점으로 롤백함
