@@ -30,7 +30,8 @@ $git submodule update --init
 $git submodule update --remote
 ```
 ## 4 rollback submodules 
+서브 모듈의 상태를 마지막으로 commit한 지점으로 롤백함
 ```
 $git submodule update
 ```
-서브 모듈의 상태를 마지막으로 commit한 지점으로 롤백함
+
